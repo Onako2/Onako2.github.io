@@ -1,0 +1,1 @@
+alert("Hallo Mebis-User, hier sind deine Kekse: " + document.cookie)
