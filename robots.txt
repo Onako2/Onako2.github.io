@@ -1,0 +1,12 @@
+User-Agent: Googlebot
+Allow: /
+Disallow: /place
+
+User-Agent: Googlebot-Image
+Allow: /
+Disallow: /place
+
+User-Agent: MSNBot
+Allow: /
+Disallow: /place
+
